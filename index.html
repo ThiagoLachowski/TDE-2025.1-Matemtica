@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Verdade de Proposições Lógicas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imgs/logo-nova2.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabela-Verdade de Proposições Lógicas</h1>
+
+        <label for="proposicao">Digite uma proposição lógica:</label>
+        <input type="text" id="proposicao" placeholder="Ex: (p ∧ q) → r">
+
+        <button onclick="gerarTabela()">Gerar Tabela-Verdade</button>
+
+        <h2>Resultado:</h2>
+        <div id="resultado"></div>
+        <div id="mensagem"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
